@@ -1,0 +1,141 @@
+body {
+	color: rgb(255, 255, 255);
+    
+    background-image: linear-gradient(90deg,#12b4eb,#5256aa,#573645);
+    
+}
+.navbar{
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.main-container{
+    background-color:rgba(196, 196, 196, 0.26);
+    padding:20px;
+    border: 3px solid rgba(230, 230, 230, 0.288);
+    border-radius:20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    margin-top:0;
+}
+.c-card{
+    
+    background-color:rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    margin:18px;
+    width: 90%;
+    color:#00ffaa;
+}
+.card-border{
+    border: 1px solid rgba(226, 226, 226, 0.212);
+    text-align: center;
+    padding:4px;
+    border-radius: 5px;
+    background-color:#00000010;
+}
+.card-img-top{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+        box-shadow: #161616;
+}
+a {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+}
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	color: #161616;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1rem 1.5rem;
+	color: #fff;
+}
+footer{
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+element {
+	margin-top: 50px;
+}
+.search{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_box{
+    width:85%;
+    
+}
+
+element {
+	margin-bottom: 0px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-group > .card:not(:first-child) {
+    border: 2px solid rgba(255, 255, 255, 0.199);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.card-group > .card:first-child {
+    border: 2px solid rgba(255, 255, 255, 0.199);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.bg-dark {
+	--bs-bg-opacity: .6;
+	background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+}
+.navbar {
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+@media only screen and (max-width: 1000px) {
+    .main-container{
+        
+        padding:10px;
+        
+        border-radius:10px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c-card{
+        border-radius: 5px;
+        margin:20px;
+        width:90%;
+    }
+    .search{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center{
+       
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input_box{
+        width:75%;
+    }
+    
+  }
